@@ -6,3 +6,18 @@ src-git lienol https://github.com/Lienol/openwrt-package.git;main
 src-git freifunk https://github.com/freifunk/openwrt-packages.git;openwrt-19.07
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
+#在拉取的op分叉主体的源码的feeds.conf.default文件(lede目录下即可找到)中添加：  
+
+src-git helloworld https://github.com/fw876/helloworld
+#这是ssrp插件的最新库地址，只是库名字叫helloworld，包名字其实还是ssrplus这个比，安装好后是界面是shadowsocksR plus + 这个比，千变万化我是你爸...      
+
+src-git passwall https://github.com/xiaorouji/openwrt-passwall   
+#这是passwall插件的最新库地址，库名、包名、菜单名目前统一，之前菜单名是 科学上网、...还有什么名字瞎几把改的我忘了...      
+
+src-git OpenClash https://github.com/vernesong/OpenClash
+#这是openclash插件的最新库地址       
+
+src-git lienol https://github.com/Lienol/openwrt-package
+#这是Lienol的package库，里面有一些lede里没有的包      
+
+#其他的比如argonv3主题什么的，也都可以按照人家readme文档提示添加进package文件中
